@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tahoma&display=swap');
+
+
+
+:root {
+    --primary: #4cf25fa9;
+    --grey: #33333372;
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Tahoma', cursive;
+    color: #33333372;
+}
+
+
+#label{
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    color:var(--grey);
+}
+
+
+textarea {
+   
+    display: block;
+    width: 75%;
+    justify-content: center;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+}
+
+button {
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem;
+    padding: 1rem;
+    font-family: 'Tahoma', cursive;
+    font-size: large;
+    text-align: center;
+}
+
+
+#txt-output {
+
+    width: 85%;
+    min-height: 20vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--grey);
+}
+
+h1 {
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--primary);
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
